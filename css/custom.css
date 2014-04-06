@@ -2368,6 +2368,16 @@ p.percent{
   .block-item {
     width: 100% !important;
   }
+  #join.info h2{
+    font-size: 2em;
+    color: #fa0;
+  }
+  #join.info  h3{
+    font-size: 1.2em;
+  }
+  #join.info  h3.title{
+    visibility: hidden;
+  }
 }
 .ie9 .Image_Wrapper {
   opacity: 1;
