@@ -2085,7 +2085,7 @@ p.percent{
   margin: 0
 }
 .home.fullscreen #intro .intro-copy h1 img{
-  width: 80%;
+  width: 60%;
 }
 .fullscreen #intro .intro-copy h2 img{
   width: 30%
@@ -2101,7 +2101,6 @@ p.percent{
   color: white;
 }
 .home.fullscreen #intro .intro-copy{
-  max-width: 1200px;
   margin: 0 auto;
 }
 .block-centered {
