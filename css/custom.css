@@ -2085,10 +2085,10 @@ p.percent{
   margin: 0
 }
 .home.fullscreen #intro .intro-copy h1 img{
-  width: 60%;
+  width: 70%;
 }
 .fullscreen #intro .intro-copy h2 img{
-  width: 30%
+  width: 20%
 }
 .home.fullscreen #intro .intro-copy h1 span,.home.fullscreen #intro .intro-copy h2 span{
   float: left;
@@ -2167,6 +2167,13 @@ p.percent{
   footer p {
     margin: 0;
   }
+  .home.fullscreen #intro .subtitle,.home.fullscreen #intro span{
+    display: none
+  }
+  .home.fullscreen #intro h1{
+    margin-bottom: 20px !important; 
+  }
+
 }
 @media (max-width: 991px) {
   .logo {
@@ -2186,7 +2193,7 @@ p.percent{
     
   }
   .home.fullscreen #intro .intro-copy h2 img{
-    width: 40%
+    width: 30%
   }
   .home.fullscreen #intro .intro-copy h1{
     margin-top: 0em
@@ -2263,9 +2270,11 @@ p.percent{
     font-size: 1em;
   }
   .home.fullscreen #intro .intro-copy h2 img{
-    width: 50%
+    width: 30%
   }
-
+  .home.fullscreen #intro h1{
+    margin-bottom: 0px !important; 
+  }
   
 }
 @media (max-width: 567px) {
@@ -2291,6 +2300,9 @@ p.percent{
     font-size: 1.3em;
     color: white;
     margin-bottom: 0.5em;
+  }
+  .home.fullscreen #intro .intro-copy h2 img{
+    width: 40%
   }
   .home.fullscreen #intro .intro-copy .btn.cta.btn-lg {
     padding: 15px 40px;
