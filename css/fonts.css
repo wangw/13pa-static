@@ -1,0 +1,183 @@
+@font-face {
+	font-family: 'Linecons';
+	src:url('../fonts/Linecons.eot');
+	src:url('../fonts/Linecons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Linecons.woff') format('woff'),
+		url('../fonts/Linecons.ttf') format('truetype'),
+		url('../fonts/Linecons.svg#Linecons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Linecons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="linecon-"] {
+*/
+.linecon-heart, .linecon-cloud, .linecon-star, .linecon-tv, .linecon-sound, .linecon-video, .linecon-trash, .linecon-user, .linecon-key, .linecon-search, .linecon-settings, .linecon-camera, .linecon-tag, .linecon-lock, .linecon-bulb, .linecon-pen, .linecon-diamond, .linecon-display, .linecon-location, .linecon-eye, .linecon-bubble, .linecon-stack, .linecon-cup, .linecon-phone, .linecon-news, .linecon-mail, .linecon-like, .linecon-photo, .linecon-note, .linecon-clock, .linecon-paperplane, .linecon-params, .linecon-banknote, .linecon-data, .linecon-music, .linecon-megaphone, .linecon-study, .linecon-lab, .linecon-food, .linecon-t-shirt, .linecon-fire, .linecon-clip, .linecon-shop, .linecon-calendar, .linecon-wallet, .linecon-vynil, .linecon-truck, .linecon-world {
+	font-family: 'Linecons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.linecon-heart:before {
+	content: "\e000";
+}
+.linecon-cloud:before {
+	content: "\e001";
+}
+.linecon-star:before {
+	content: "\e002";
+}
+.linecon-tv:before {
+	content: "\e003";
+}
+.linecon-sound:before {
+	content: "\e004";
+}
+.linecon-video:before {
+	content: "\e005";
+}
+.linecon-trash:before {
+	content: "\e006";
+}
+.linecon-user:before {
+	content: "\e007";
+}
+.linecon-key:before {
+	content: "\e008";
+}
+.linecon-search:before {
+	content: "\e009";
+}
+.linecon-settings:before {
+	content: "\e00a";
+}
+.linecon-camera:before {
+	content: "\e00b";
+}
+.linecon-tag:before {
+	content: "\e00c";
+}
+.linecon-lock:before {
+	content: "\e00d";
+}
+.linecon-bulb:before {
+	content: "\e00e";
+}
+.linecon-pen:before {
+	content: "\e00f";
+}
+.linecon-diamond:before {
+	content: "\e010";
+}
+.linecon-display:before {
+	content: "\e011";
+}
+.linecon-location:before {
+	content: "\e012";
+}
+.linecon-eye:before {
+	content: "\e013";
+}
+.linecon-bubble:before {
+	content: "\e014";
+}
+.linecon-stack:before {
+	content: "\e015";
+}
+.linecon-cup:before {
+	content: "\e016";
+}
+.linecon-phone:before {
+	content: "\e017";
+}
+.linecon-news:before {
+	content: "\e018";
+}
+.linecon-mail:before {
+	content: "\e019";
+}
+.linecon-like:before {
+	content: "\e01a";
+}
+.linecon-photo:before {
+	content: "\e01b";
+}
+.linecon-note:before {
+	content: "\e01c";
+}
+.linecon-clock:before {
+	content: "\e01d";
+}
+.linecon-paperplane:before {
+	content: "\e01e";
+}
+.linecon-params:before {
+	content: "\e01f";
+}
+.linecon-banknote:before {
+	content: "\e020";
+}
+.linecon-data:before {
+	content: "\e021";
+}
+.linecon-music:before {
+	content: "\e022";
+}
+.linecon-megaphone:before {
+	content: "\e023";
+}
+.linecon-study:before {
+	content: "\e024";
+}
+.linecon-lab:before {
+	content: "\e025";
+}
+.linecon-food:before {
+	content: "\e026";
+}
+.linecon-t-shirt:before {
+	content: "\e027";
+}
+.linecon-fire:before {
+	content: "\e028";
+}
+.linecon-clip:before {
+	content: "\e029";
+}
+.linecon-shop:before {
+	content: "\e02a";
+}
+.linecon-calendar:before {
+	content: "\e02b";
+}
+.linecon-wallet:before {
+	content: "\e02c";
+}
+.linecon-vynil:before {
+	content: "\e02d";
+}
+.linecon-truck:before {
+	content: "\e02e";
+}
+.linecon-world:before {
+	content: "\e02f";
+}
