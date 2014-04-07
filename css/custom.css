@@ -1214,7 +1214,13 @@ footer.sticky {
 footer p {
   margin: 0;
 }
-
+footer .row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+#ranking h3{
+  line-height: 150%;
+}
 .logos * {
   text-align: center;
 }
@@ -2100,6 +2106,9 @@ p.percent{
   font-size: 1.7em;
   color: white;
 }
+.home.fullscreen #intro .cta{
+  margin-top: 10px;
+}
 .home.fullscreen #intro .intro-copy{
   margin: 0 auto;
 }
@@ -2121,7 +2130,7 @@ p.percent{
   vertical-align: middle;
   width: 90%;
   text-align: center;
-  padding: 10px 15px;
+  padding: 30px 15px 0;
 }
 .inner .intro-heading {
   background: #273646;
@@ -2202,7 +2211,6 @@ p.percent{
     font-size: 1.3em;
     color: white;
   }
-  
   #cta-contact {
     text-align: center;
   }
