@@ -2470,3 +2470,17 @@ p.percent{
 .ie8 .large.quote .quote-end {
   right: 5px !important;
 }
+a:hover{
+  color: #fff !important;
+  color: rgba(255,255,255,0.8) !important;
+}
+.row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+table th:first-child{
+  width: 30%;
+}
+table th:last-child{
+  width: 50%;
+}
