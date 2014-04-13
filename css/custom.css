@@ -1976,9 +1976,6 @@ fieldset[disabled] .btn.cta.btn-info.active {
   text-decoration: underline;
   margin: 0 5px
 }
-.table a:hover{
-  text-decoration: none
-}
 .table p.dist{
   color: #666;
   font-size: 0.8em;
@@ -2509,6 +2506,9 @@ table th:first-child{
 }
 table th:last-child{
   width: 50%;
+}
+table a:hover{
+  color: #666 !important;
 }
 
 .marquee {  
