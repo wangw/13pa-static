@@ -1247,6 +1247,10 @@ footer .row{
 #ranking h3{
   line-height: 150%;
 }
+#ranking p span{
+  color: #0ff;
+  font-size: normal;
+}
 .logos * {
   text-align: center;
 }
