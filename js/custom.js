@@ -24,6 +24,9 @@ var email       = "info@company.com";
 /* -- Page scroller
    -- src: http://stackoverflow.com/questions/8011822/animate-scroll-to-next-prev-post
    ---------------------------- */
+// var mycon = console;
+var mycon = { log: function() {return true;} };
+if(console.log) mycon = console;
 
 $(function() {
 
@@ -433,7 +436,7 @@ $(document).ready(function() {
   $.resizeGrid = function(columns) {
     var shifts;
     shifts = $.fillArray($(".grid .block-item").length, 0);
-    console.log("shifts before> " + shifts);
+    mycon.log("shifts before> " + shifts);
     $(".grid .tall").each(function(_i, element) {
       var index, _results;
       index = $(element).prevAll().length;
@@ -445,12 +448,12 @@ $(document).ready(function() {
       }
       return _results;
     });
-    console.log("shifts after> " + shifts);
+    mycon.log("shifts after> " + shifts);
     $(".grid .block-item").each(function(ind, element) {
       $(element).removeClass("shift0 shift1 shift2 shift3 shift4 shift5");
       return $(element).addClass("shift" + shifts[ind]);
     });
-    return console.log("Resizing to " + columns + " columns");
+    return mycon.log("Resizing to " + columns + " columns");
   };
 
   $(window).resize(function() {
@@ -460,18 +463,18 @@ $(document).ready(function() {
         return $.currentGridSize = $.gridSize();
       }
     } else {
-      return console.log('no current grid size');
+      return mycon.log('no current grid size');
     }
   });
 
   $(function() {
     $.currentGridSize = $.gridSize();
-    console.log("Resizing to " + $.currentGridSize + " columns");
+    mycon.log("Resizing to " + $.currentGridSize + " columns");
     $.resizeGrid($.currentGridSize);
     return true;
   });
 
-  console.log("Reloaded");
+  mycon.log("Reloaded");
 
   /*
     The rest of this document was created for previous pens:
